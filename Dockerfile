@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 MAINTAINER Ruben Silva <rubensilva84@gmail.com>
 
 RUN useradd -m -s /bin/bash -p '*' dropbox
