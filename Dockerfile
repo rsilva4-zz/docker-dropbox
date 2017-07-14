@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER Ruben Silva <rubensilva84@gmail.com>
+LABEL maintainer="@rcsilva4"
 
 RUN useradd -m -s /bin/bash -p '*' dropbox
 WORKDIR /home/dropbox
